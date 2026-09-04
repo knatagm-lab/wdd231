@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <meta name="description" content="This is the home page of my personal website, showcasing my background, student photo, and web certificate courses.">
+    <meta name="author" content="Karen Natalia Gaviria Mariaca">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.svg" alt="Site logo" width="1" height="1">
+        <span>Karen Gaviria</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Karen! I'm a web developer passionate about creating engaging and user-friendly websites.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/student-photo.jpg" alt="Student's photo">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn logo" width="16" height="16"></a>
+            <a href="https://github.com/knatagm-lab" target="_blank"><img src="images/github.svg" alt="GitHub logo" width="16" height="16"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook logo" width="16" height="16"></a>
+        </div>
+        
+        <p>&copy; <span id="currentyear"></span> Karen Gaviria • Colombia</p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+</html>
