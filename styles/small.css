@@ -43,6 +43,10 @@ header span {
     content: "\00D7";
 }
 
+body {
+    color: #304058;
+}
+
 /***********navigation***********/
 .navigation {
   display: none;
@@ -77,6 +81,23 @@ header span {
 h1 {
     margin-left: 10px;
     color: #304058;
+}
+
+/***********main***********/
+section p {
+    margin: 0 10px 1rem 10px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+.profile {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.completed {
+    border: 1px solid #b4d4b8;
+    padding: 8px;
 }
 
 /***********footer***********/

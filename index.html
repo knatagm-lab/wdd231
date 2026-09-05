@@ -17,6 +17,7 @@
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 <body>
 
@@ -40,19 +41,33 @@
         <section>
             <h2>About Me</h2>
             <p>
-                Hi, I'm Karen! I'm a web developer passionate about creating engaging and user-friendly websites.
-            </p>
+                Hi, I'm Karen! I'm from Colombia. I am currently studying Software Development at BYU-Idaho.
+                Although learning so many new things has been a challenge for me, my desire to keep learning and
+                improving is still strong. So far, I have learned about HTML, CSS, and JavaScript. I find web 
+                development very interesting, and little by little, these terms are becoming more familiar to me. 
+                I am excited to continue learning and growing in this field.
+
+\            </p>
         </section>
 
         <section>
             <h2>Student Photo</h2>
-            <img src="images/student-photo.jpg" alt="Student's photo">
+            <img src="images/student-photo.webp" alt="Student's photo" class="profile">
         </section>
 
         <section>
             <h2>Web Certificate Courses</h2>
+
+            <button type="button" id="allcourses">ALL</button>
+            <button type="button" id="csecourses">CSE</button>
+            <button type="button" id="wddcourses">WDD</button>
+
+            <div id="courses"></div>
+
+            <p id="numcredits"></p>
         </section>
     </main>
+
     <footer>
         <div class="social">
             <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn logo" width="16" height="16"></a>
