@@ -84,9 +84,13 @@ h1 {
     color: #304058;
 }
 
-main{
-        padding: 0 10px;
-    }
+main {
+    padding: 0 10px;
+}
+
+about p {
+    max-width: 550px;
+}
     
 section p {
     margin: 0 10px 1rem 10px;
@@ -94,14 +98,24 @@ section p {
     font-size: 1.1rem;
 }
 .profile {
-    width: 200px;
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
     display: block;
     margin: 0 auto;
 }
 
 .completed {
+    max-width: 100%;
     border: 1px solid #b4d4b8;
-    padding: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+}
+
+.courses h2{    
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 /***********footer***********/
