@@ -88,7 +88,7 @@ main {
     padding: 0 10px;
 }
 
-about p {
+.about p {
     max-width: 550px;
 }
     
@@ -97,12 +97,23 @@ section p {
     line-height: 1.5;
     font-size: 1.1rem;
 }
+
+section h2 {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 0.3rem;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
 .profile {
     width: 280px;
     height: auto;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+    padding: 0.5rem;
 }
 
 .completed {
@@ -113,9 +124,34 @@ section p {
     border-radius: 6px;
 }
 
-.courses h2{    
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.courses h2 {
+    grid-column: 1 / -1;    
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 0;
+}
+
+#courses,
+#numcredits {
+    grid-column: 1 / -1;
+}
+
+.courses button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #ddd;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.courses button:hover {
+    background-color: #b4d4b8;
 }
 
 /***********footer***********/
