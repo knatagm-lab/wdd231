@@ -12,7 +12,7 @@
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 2rem;
+        gap: 1rem;
         align-items: start;
     }
 
