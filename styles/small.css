@@ -60,25 +60,26 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: #304058;
 }
 
 .navigation a {
     display: block;
     padding: .8rem 20px;
     color: white;
-    background-color: black;
+    background-color: #304058;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .navigation li.current {
-    background-color: #333;
+    background-color: #263448;
 }
 
 .navigation a:hover {
-    background-color: #333;
+    background-color: #b4d4b8;
+    color: #304058;
 }
 
 /***********main***********/
@@ -103,7 +104,7 @@ section p {
 }
 
 section h2 {
-    background-color: #222;
+    background-color: #304058;
     color: white;
     text-align: center;
     padding: 0.3rem;
@@ -147,9 +148,10 @@ section h2 {
 
 .courses button {
     padding: 0.5rem 1rem;
-    border: 1px solid #333;
+    border: 1px solid #304058;
     border-radius: 4px;
     background-color: #ddd;
+    color: #304058;
     font-weight: bold;
     cursor: pointer;
 }
