@@ -1,0 +1,28 @@
+{
+  "family_name": "Gaviria",
+  "move_in_date": "2023-11-25",
+  "number_of_people": 4,
+  "visited_by_bishopric": true,
+  "family_members": [
+    {
+      "name": "Fabian Gaviria",
+      "gender": "Male",
+      "birthdate": "1980-07-06"
+    },
+    {
+      "name": "Flor Gaviria",
+      "gender": "Female",
+      "birthdate": "1970-04-25"
+    },
+    {
+      "name": "Jhonatan Gaviria",
+      "gender": "Male",
+      "birthdate": "2001-10-03"
+    },
+    {
+      "name": "David Gaviria",
+      "gender": "Male",
+      "birthdate": "1989-10-17"
+    }
+  ]
+}
