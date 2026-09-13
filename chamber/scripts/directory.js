@@ -18,7 +18,7 @@ function displayMember(member) {
     const card = document.createElement("article");
         card.innerHTML = `
 
-        <img src="${member.image}" alt="${member.name}" loading="lazy">
+        <img src="${member.image}" alt="${member.name}" loading="lazy" width="500" height="500">
         <h2>${member.name}</h2>
         <p>${member.address}</p>
         <p>${member.phone}</p>
