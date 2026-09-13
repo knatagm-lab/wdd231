@@ -147,7 +147,7 @@ nav a.active {
 }
 
 #menu-button {
-    background-color: none;
+    background-color: transparent;
     border: none;
     color: #344e41;
     font-size: 2.2rem;
