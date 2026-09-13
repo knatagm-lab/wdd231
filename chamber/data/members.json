@@ -5,6 +5,8 @@
         "phone": "+57 602 824 3645",
         "website": "https://www.cccauca.org.co/",
         "image": "images/camara-comercio.webp",
+        "width": 500,
+        "height": 417,
         "membership": 3,
         "description": "Apoyo y servicios para empresarios y comerciantes."
     } ,
@@ -15,6 +17,8 @@
         "phone": "+57 602 823 4873",
         "website": "https://www.cafecauca.com/",
         "image": "images/cafe-cauca.webp",
+        "width": 500,
+        "height": 333,
         "membership": 2,
         "description": "Café especial producido en las montañas del Cauca."
     } ,
@@ -25,6 +29,8 @@
         "phone": "+57 602 923 43895",
         "website": "https://www.andestecnologia.com/",
         "image": "images/andes-tecnologia.webp",
+        "width": 500,
+        "height": 311,
         "membership": 2,
         "description": "Soluciones tecnológicas para pequeñas y medianas empresas."
     } ,
@@ -35,6 +41,8 @@
         "phone": "+57 602 234 5366",
         "website": "https://www.saboresdelcauca.com/",
         "image": "images/sabores-cauca.webp",
+        "width": 500,
+        "height": 281,
         "membership": 1,
         "description": "Productos gastronómicos tradicionales del departamento."
     } ,
@@ -45,6 +53,8 @@
         "phone": "+57 602 432 4352",
         "website": "https://www.constructoracolonial.com/",
         "image": "images/constructora-colonial.webp",
+        "width": 500,
+        "height": 293,
         "membership": 2,
         "description": "Servicios de construcción y proyectos inmobiliarios."
     } ,
@@ -55,6 +65,8 @@
         "phone": "+57 602 343 8463",
         "website": "https://www.verdenatural.com/",
         "image": "images/verde-natural.webp",
+        "width": 500,
+        "height": 278,
         "membership": 1,
         "description": "Productos naturales y alternativos para un estilo de vida sostenible."
     } ,
@@ -65,6 +77,8 @@
         "phone": "+57 602 546 3522",
         "website": "https://www.hotelciudadblanca.com/",
         "image": "images/hotel-ciudadblanca.webp",
+        "width": 500,
+        "height": 334,
         "membership": 1,
         "description": "Hospedaje y servicios para visitantes de Popayán."
     }
