@@ -4,7 +4,7 @@
         "address": "Calle 4 # 7 - 37, Popayán, Cauca",
         "phone": "+57 602 824 3645",
         "website": "https://www.cccauca.org.co/",
-        "image": "camara-comercio.webp",
+        "image": "images/camara-comercio.webp",
         "membership": 3,
         "description": "Apoyo y servicios para empresarios y comerciantes."
     } ,
@@ -14,7 +14,7 @@
         "address": "Carrera 5 # 3 - 25, Popayán, Cauca",
         "phone": "+57 602 823 4873",
         "website": "https://www.cafecauca.com/",
-        "image": "cafe-cauca.webp",
+        "image": "images/cafe-cauca.webp",
         "membership": 2,
         "description": "Café especial producido en las montañas del Cauca."
     } ,
@@ -24,7 +24,7 @@
         "address": "Carrera 8 # 7 - 16, Popayán, Cauca",
         "phone": "+57 602 923 43895",
         "website": "https://www.andestecnologia.com/",
-        "image": "andes-tecnologia.webp",
+        "image": "images/andes-tecnologia.webp",
         "membership": 2,
         "description": "Soluciones tecnológicas para pequeñas y medianas empresas."
     } ,
@@ -34,7 +34,7 @@
         "address": "Calle 2 # 7 - 45, Popayán, Cauca",
         "phone": "+57 602 234 5366",
         "website": "https://www.saboresdelcauca.com/",
-        "image": "sabores-cauca.webp",
+        "image": "images/sabores-cauca.webp",
         "membership": 1,
         "description": "Productos gastronómicos tradicionales del departamento."
     } ,
@@ -44,7 +44,7 @@
         "address": "Carrera 11 # 5 - 21, Popayán, Cauca",
         "phone": "+57 602 432 4352",
         "website": "https://www.constructoracolonial.com/",
-        "image": "constructora-colonial.webp",
+        "image": "images/constructora-colonial.webp",
         "membership": 2,
         "description": "Servicios de construcción y proyectos inmobiliarios."
     } ,
@@ -54,7 +54,7 @@
         "address": "Calle 4 # 6 - 21, Popayán, Cauca",
         "phone": "+57 602 343 8463",
         "website": "https://www.verdenatural.com/",
-        "image": "verde-natural.webp",
+        "image": "images/verde-natural.webp",
         "membership": 1,
         "description": "Productos naturales y alternativos para un estilo de vida sostenible."
     } ,
@@ -64,7 +64,7 @@
         "address": "Calle 4 # 8 - 12, Popayán, Cauca",
         "phone": "+57 602 546 3522",
         "website": "https://www.hotelciudadblanca.com/",
-        "image": "hotel-ciudadblanca.webp",
+        "image": "images/hotel-ciudadblanca.webp",
         "membership": 1,
         "description": "Hospedaje y servicios para visitantes de Popayán."
     }
