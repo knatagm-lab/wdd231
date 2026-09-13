@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #252525;
+    background-color: #f7f6f4;
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background-color: #344e41;
+    color: #f7f6f4;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.header-content img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-content span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+nav {
+    display: none;
+}
+
+nav.show {
+    display: block;
+}
+
+nav a {
+    display: block;
+    padding: 0.75rem;
+    color: #f7f6f4;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #5f7161;
+}
+
+nav a.active {
+    background-color: #a3b18a;
+}
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.members-grid article {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    padding: 1rem;
+    text-align: center;
+}
+
+.members-grid article img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.members-grid article h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 0 0.75rem;
+}
+
+.members-grid article a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #344e41;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.members-grid article a:hover {
+    color: #5f7161;
+    text-decoration: underline;
+}
+
+.members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.members-list article {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    padding: 0.75rem;
+    text-align: left; 
+}
+
+.view-buttons button {
+    background-color: #344e41;
+    color: #f7f6f4;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.view-buttons button:hover {
+    background-color: #a3b18a;
+    color: #252525;
+}
+
+#menu-button {
+    background-color: none;
+    border: none;
+    color: #344e41;
+    font-size: 2.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1;
+}
+
+
+
+
+

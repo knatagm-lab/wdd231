@@ -1,0 +1,22 @@
+@media (min-width:768px) {
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        padding: 0.5rem 1rem;
+    }
+
+    .members-grid {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    #menu-button {
+        display: none;
+    }
+    
+    .development-information {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
