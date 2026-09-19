@@ -21,6 +21,7 @@
     }
 
     .hero-content {
+        top: 80%;
         width: 55%;
         padding: 1.5rem 2rem;
     }

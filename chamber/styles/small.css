@@ -103,15 +103,18 @@ nav a.active {
 
 .members-grid article a {
     display: inline-block;
-    margin-top: 0.5rem;
-    color: #344e41;
+    margin-top: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #344e41;
+    color: #f7f6f4;
     font-weight: 700;
     text-decoration: none;
+    border-radius: 4px;
 }
 
 .members-grid article a:hover {
-    color: #5f7161;
-    text-decoration: underline;
+    background-color: #a3b18a;
+    color: #252525;
 }
 
 .members-list {
@@ -365,14 +368,17 @@ nav a.active {
 
 #spotlights-container a {
     display: inline-block;
-    margin-top: 0.5rem;
-    color: #344e41;
+    margin-top: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #344e41;
+    color: #f7f6f4;
     font-weight: 700;
     text-decoration: none;
+    border-radius: 4px;
 }
 
 #spotlights-container a:hover {
-    color: #5f7161;
-    text-decoration: underline;
+    background-color: #a3b18a;
+    color: #252525;
 }
 
