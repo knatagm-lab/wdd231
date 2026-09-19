@@ -336,7 +336,7 @@ nav a.active {
 
 #spotlights-container {
     display: grid;
-    grid-template-columns: 1rf;
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
 
