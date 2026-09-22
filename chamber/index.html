@@ -7,7 +7,7 @@
     <meta name="description" content="Welcome to Popayán Business Chamber, connecting local businesses and supporting economic growth in Popayán, Cauca.">
     <meta name="author" content="Karen Natalia Gaviria Mariaca">
 
-    <meta property="og:title" content="Popayán Business Chamber • Home">
+    <meta property="og:title" content="Popayán Business Chamber • Supporting Local Business">
     <meta property="og:description" content="Welcome to Popayán Business Chamber, connecting local businesses and supporting economic growth in Popayán, Cauca.">
     <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/chamber/images/camara-comercio.webp">
     <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/">
@@ -22,15 +22,31 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home.js" defer></script>
 
 </head>
 <body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Popayán Business Chamber logo">
+            <span>Popayán Business Chamber</span>
+        </div>
+
+        <button id="menu-button" aria-label="open navigation menu">≡</button>
+
+        <nav id="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Discover</a>
+            <a href="#">Join</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
     <main>
-        <h1>Welcome to Popayán Business Chamber</h1>
+        <h1>Popayán Business Chamber • Home</h1>
 
         <section class="hero">
-            <img src="images/hero.webp" alt="View of Popayán City with his architecture and mountains" width="640" height="421">
+            <img src="images/hero.webp" alt="View of Popayán City with his architecture and mountains" width="1200" height="675">
             <div class="hero-content">
                 <h2>Growing Business, Strengthening Popayán</h2>
                 <a href="#">Join the Chamber</a>
@@ -39,13 +55,33 @@
 
         <section class="events">
             <h2>Current Events</h2>
-            <p>Discover upcoming events and opportunities for local businesses.</p>
+
+            <article>
+                <h3>Business Networking Meeting</h3>
+                <p>Connect with local entrepreneurs and build new business relationships.</p>
+                <p><strong>Date: </strong>September 25,2026</p>
+
+            </article>
+                
+            <article>
+                <h3>Entrepreneurship Workshop</h3>
+                <p>Learn practical strategies to strengthen and grow business.</p>
+                <p><strong>Date: </strong>October 9,2026</p>
+            </article>
         </section>
 
         <section class="weather">
             <h2>Weather</h2>
-            <div id="current-weather"></div>
-            <div id="forecast"></div>
+
+            <div class="current-weather">
+                <h3>Current Weather</h3>
+                <div id="current-weather"></div>
+            </div>
+
+            <div class="forecast">
+                <h3>3-Day Forecast</h3>
+                <div id="forecast"></div>
+            </div>
         </section>
 
         <section class="spotlights">

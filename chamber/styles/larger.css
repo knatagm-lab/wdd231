@@ -44,11 +44,42 @@
     }
 
     .hero-content {
-        width: 60%;
-        padding: 2rem;
+        top: 80%;
+        width: 55%;
+        padding: 1.5rem 2rem;
     }
 
     .hero-content h2 {
         font-size: 1.8rem;
+    }
+
+    .current-weather {
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    #forecast {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .forecast-day {
+        padding: 1.25rem;
+        text-align: center;
+    }
+
+    .forecast-day img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    #spotlights-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    #spotlights-container article {
+        padding: 1.5rem;
     }
 }

@@ -105,21 +105,15 @@ nav a.active {
 .members-grid article a,
 .members-list article a {
     display: inline-block;
-    background-color: #344e41;
-    color: #ffffff;
-    padding: 0.6rem 1rem;
     margin-top: 0.5rem;
-    border-radius: 4px;
+    color: #344e41;
     font-weight: 700;
     text-decoration: none;
-    text-align: center;
-    transition: background-color 0.2s ease;
 }
 
-.members-grid article a:hover,
-.members-list article a:hover {
-    background-color: #5f7161;
-    color: #ffffff;
+.members-grid article a:hover {
+    color: #5f7161;
+    text-decoration: underline;
 }
 
 .members-list {
@@ -182,22 +176,23 @@ nav a.active {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgba(52, 78, 65, 0.75);
+    background-color: rgba(52, 78, 65, 0.8);
     color: #ffffff;
-    padding: 1.5rem;
-    width: 95%;
+    padding: 1.25rem 1.5rem;
+    width: 90%;
  }
 
  .hero-content h2 {
     font-family: 'Poppins', sans-serif;
-    margin-top: 0;
+    font-size: 1.4rem;
+    margin: 0 0 1rem;
  }
 
  .hero-content a {
     display: inline-block;
-    padding: 0.75rem 1.25rem;
     background-color: #a3b18a;
     color: #252525;
+    padding: 0.75rem 1.25rem;
     text-decoration: none;
     font-weight: 700;
  }
@@ -206,5 +201,183 @@ nav a.active {
     background-color: #ffffff;
  }
 
+/* Events */
 
+ .events {
+    margin: 2rem 0;
+ }
+
+ .events h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    text-align: center;
+    margin-bottom: 1.5rem;
+ }
+
+ .events article {
+    background-color: #ffffff;
+    border-left: 5px solid #a3b18a;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 6px rgba(37, 37, 37, 0.12);
+ }
+
+ .events article h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    margin-top: 0;
+}
+
+.events article p {
+    margin: 0.5rem 0;
+}
+
+/* Weather */
+
+.weather {
+    margin: 2rem 0;
+}
+
+.weather h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.current-weather,
+.forecast {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.current-weather h3,
+.forecast h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    margin-top: 0;
+    text-align: center;
+}
+
+#current-weather {
+    text-align: center;
+}
+
+#current-weather img {
+    width: 80px;
+    height: 80px;
+}
+
+#current-weather p {
+    margin: 0.4rem 0;
+}
+
+#current-weather strong {
+    font-size: 1.8rem;
+    color: #344e41;
+}
+
+.forecast {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    padding: 1.25rem;
+    margin: 1rem;
+}
+
+#forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.forecast-day {
+    background-color: #f7f6f4;
+    border-left: 5px solid #a3b18a;
+    padding: 1rem;
+    text-align: center;
+}
+
+.forecast-day h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    margin: 0 0 0.5rem;
+}
+
+.forecast-day img {
+    width: 70px;
+    height: 70px;
+}
+
+.forecast-day p {
+    margin: 0.4rem 0;
+}
+
+.forecast-day p:nth-of-type(1) {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #344e41;
+}
+
+/* Business Spotlights */
+
+.spotlights {
+    margin: 2rem 0;
+}
+
+.spotlights h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#spotlights-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+#spotlights-container article {
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-top: 5px solid #a3b18a;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+#spotlights-container img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+#spotlights-container h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #344e41;
+    margin: 0 0 0.75rem;
+}
+
+#spotlights-container p {
+    margin: 0.5rem 0;
+}
+
+#spotlights-container a {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #344e41;
+    color: #f7f6f4;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#spotlights-container a:hover {
+    background-color: #a3b18a;
+    color: #252525;
+}
 
