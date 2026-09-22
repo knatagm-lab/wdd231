@@ -104,16 +104,21 @@ nav a.active {
 
 .members-grid article a,
 .members-list article a {
-    display: inline-block;
+    background-color: #344e41;
+    color: #ffffff;
+    padding: 0.6rem 1rem;
     margin-top: 0.5rem;
-    color: #344e41;
+    border-radius: 4px;
     font-weight: 700;
     text-decoration: none;
+    text-align: center;
+    transition: background-color 0.2s ease;
 }
 
-.members-grid article a:hover {
-    color: #5f7161;
-    text-decoration: underline;
+.members-grid article a:hover,
+.members-list article a:hover {
+    background-color: #5f7161;
+    color: #ffffff;
 }
 
 .members-list {
