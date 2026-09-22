@@ -355,7 +355,8 @@ nav a.active {
 
 #spotlights-container img {
     width: 100%;
-    height: auto;
+    height: 180px;
+    object-fit: cover;
     max-width: 250px;
     margin: 0 auto 1rem;
     display: block;
