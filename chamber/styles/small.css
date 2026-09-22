@@ -104,6 +104,7 @@ nav a.active {
 
 .members-grid article a,
 .members-list article a {
+    display: inline-block;
     background-color: #344e41;
     color: #ffffff;
     padding: 0.6rem 1rem;
