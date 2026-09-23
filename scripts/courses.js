@@ -78,6 +78,8 @@ const courses = [
     }
 ]
 
+const courseDetails = document.getElementById('course-details');
+
 function displayCourses(courseList) {
 
     const courseContainer = document.getElementById('courses');
@@ -104,8 +106,12 @@ function displayCourses(courseList) {
             <h3>${course.subject} ${course.number}: ${course.title}</h3>
             <p><strong>Description:</strong> ${course.description}</p>
             <p><strong>Technology:</strong> ${course.technology.join(', ')}</p>
-            <p><strong>Status:</strong> ${completedText}</p>      
+            <p><strong>Status:</strong> ${completedText}</p>   
         `;
+
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+    });
         courseContainer.appendChild(card);
     });
 
@@ -136,4 +142,39 @@ const wddButton = document.getElementById('wddcourses');
 wddButton.addEventListener('click', () => {
     displayCourses(wddCourses)
 });
+
+function displayCourseDetails(course) {
+
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+
+  const closeModal = document.getElementById('closeModal');
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+
+  courseDetails.addEventListener('click', (event)=> {
+    const dialogDimensions = courseDetails.getBoundingClientRect();
+
+    if (
+        event.clientX < dialogDimensions.left ||
+        event.clientX > dialogDimensions.right ||
+        event.clientY < dialogDimensions.top ||
+        event.clientY > dialogDimensions.bottom
+    ) {
+        courseDetails.close()
+    }
+
+  });
+}
+
 
