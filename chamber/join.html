@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popayán Business Chamber • Join</title>
+    <meta name="description" content="Join the Popayán Business Chamber and connect with local business, resources, training, and opportunities in Popayán,Cauca.">
+    <meta name="author" content="Karen Natalia Gaviria Mariaca">
+
+    <meta property="og:title" content="Popayán Business Chamber • Join">
+    <meta property="og:description" content="Join the Popayán Business Chamber and connect with local business, resources, training, and opportunities in Popayán,Cauca.">
+    <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/chamber/images/camara-comercio.webp">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/join.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Popayán Business Chamber logo">
+            <span>Popayán Business Chamber</span>
+        </div>
+
+        <button id="menu-button" aria-label="open navigation menu">≡</button>
+
+        <nav id="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="directory.html">Discover</a>
+            <a href="#">Join</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Join the Popayán Business Chamber</h1>
+
+        <div class="join-layout">
+            <section class="membershio-form">
+                <h2>Membership Application</h2>
+
+                <form method="GET" action="thanks.html">
+                    <label>First Name <input type="text" name="firstName" autocomplete="given-name" title="Enter your First Name" required></label>
+                    <label>Last Name <input type="text" name="lastName" autocomplete="family-name" title="Enter your Last Name" required></label>
+                    <label>Organizational Title <input type="text" name="organizationalTitle" autocomplete="family-name" title="Enter your organizational title" pattern="[A-Za-zÀ-ÿ\s-]{7,}"></label>
+                    <label>Email Address <input type="email" name="email" placeholder="john89@gmail.com"  title="Enter your Email" autocomplete="email" required></label>
+                    <label>Mobile Phone Number <input type="tel" name="phone" placeholder="987-555-1234" autocomplete="tel" title="Enter your mobile phone number" required></label>
+                    <label>Business / Organization Name <input type="text" name="organization" title="Enter your business or organization mame" autocomplete="organization" required></label>
+                    
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <label><input type="radio" name="ordinance" value="Baptism" checked> Proxy Baptism</label>
+                        <label><input type="radio" name="ordinance" value="Initiatory"> Proxy Initiatory</label>
+                        <label><input type="radio" name="ordinance" value="Endowment"> Proxy Endowment</label>
+                        <label><input type="radio" name="ordinance" value="Sealing"> Proxy Sealing</label>
+                    </fieldset>
+                </form>    
+            </section>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="development-information">
+            <p>&copy; <span id="currentyear"></span> Karen Gaviria • Colombia</p>
+            <p>WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>   
+</body>
+</html>
