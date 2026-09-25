@@ -83,3 +83,39 @@
         padding: 1.5rem;
     }
 }
+
+.join-layout {
+    grid-template-columns: 1.2fr 1fr;
+    align-items: start;
+    gap: 2rem;
+}
+
+.membership-form,
+.membership-levels {
+    padding: 1.5rem;
+}
+
+.membership-levels {
+    gap: 1.25rem;
+}
+
+.membership-card {
+    padding: 1.5rem;
+}
+
+.membership-form input[type="submit"] {
+    width: fit-content;
+    align-self: flex-start;
+    padding: 0.75rem 1.5rem;
+}
+
+.thankyou {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+#application-details {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 1.5rem 2rem;
+}
