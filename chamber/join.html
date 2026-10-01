@@ -10,7 +10,7 @@
     <meta property="og:title" content="Popayán Business Chamber • Join">
     <meta property="og:description" content="Join the Popayán Business Chamber and connect with local business, resources, training, and opportunities in Popayán,Cauca.">
     <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/chamber/images/camara-comercio.webp">
-    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/chamber/join.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,9 +35,9 @@
         <button id="menu-button" aria-label="open navigation menu">≡</button>
 
         <nav id="navigation">
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
             <a href="directory.html">Discover</a>
-            <a href="#">Join</a>
+            <a href="join.html" class="active">Join</a>
             <a href="#">Contact</a>
         </nav>
     </header>
@@ -46,27 +46,114 @@
         <h1>Join the Popayán Business Chamber</h1>
 
         <div class="join-layout">
-            <section class="membershio-form">
+            <section class="membership-form">
                 <h2>Membership Application</h2>
 
-                <form method="GET" action="thanks.html">
+                <form method="GET" action="thankyou.html">
                     <label>First Name <input type="text" name="firstName" autocomplete="given-name" title="Enter your First Name" required></label>
                     <label>Last Name <input type="text" name="lastName" autocomplete="family-name" title="Enter your Last Name" required></label>
-                    <label>Organizational Title <input type="text" name="organizationalTitle" autocomplete="family-name" title="Enter your organizational title" pattern="[A-Za-zÀ-ÿ\s-]{7,}"></label>
+                    <label>Organizational Title <input type="text" name="organizationalTitle" autocomplete="organization-title" title="Enter your organizational title" pattern="[A-Za-zÀ-ÿ\s-]{7,}"></label>
                     <label>Email Address <input type="email" name="email" placeholder="john89@gmail.com"  title="Enter your Email" autocomplete="email" required></label>
                     <label>Mobile Phone Number <input type="tel" name="phone" placeholder="987-555-1234" autocomplete="tel" title="Enter your mobile phone number" required></label>
-                    <label>Business / Organization Name <input type="text" name="organization" title="Enter your business or organization mame" autocomplete="organization" required></label>
+                    <label>Business / Organization Name <input type="text" name="organization" title="Enter your business or organization name" autocomplete="organization" required></label>
                     
                     <fieldset>
                         <legend>Membership Level</legend>
-                        <label><input type="radio" name="ordinance" value="Baptism" checked> Proxy Baptism</label>
-                        <label><input type="radio" name="ordinance" value="Initiatory"> Proxy Initiatory</label>
-                        <label><input type="radio" name="ordinance" value="Endowment"> Proxy Endowment</label>
-                        <label><input type="radio" name="ordinance" value="Sealing"> Proxy Sealing</label>
+                        <label><input type="radio" name="membership" value="np" required> NP Membership</label>
+                        <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                        <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                        <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
                     </fieldset>
+
+                    <label>Business / Organization Description <textarea name="description" title="Enter a description of your business or organization" rows="5"></textarea></label>
+
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Apply for Membership">
                 </form>    
             </section>
+
+            <section class="membership-levels">
+                <h2>Membership Levels</h2>
+
+                <article class="membership-card">
+                    <h3>NP Membership</h3>
+                    <p>For non-profit organizations.</p>
+                    <p><strong>No annual fee</strong></p>
+                    <button type="button" class="modal-button" data-modal="np-modal">View Benefits</button>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <p>Essential resources for growing businesses.</p>
+                    <p><strong>$50 per year</strong></p>
+                    <button type="button" class="modal-button" data-modal="bronze-modal">View Benefits</button>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <p>More visibility and business opportunities.</p>
+                    <p><strong>$100 per year</strong></p>
+                    <button type="button" class="modal-button" data-modal="silver-modal">View Benefits</button>
+                </article>
+
+                <article class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <p>Premium benefits and increased exposure.</p>
+                    <p><strong>$200 per year</strong></p>
+                    <button type="button" class="modal-button" data-modal="gold-modal">View Benefits</button>
+                </article>
+            </section>
         </div>
+
+        <dialog id="np-modal" class="membership-modal">
+            <h2>NP Membership Benefits</h2>
+
+            <ul>
+                <li>No annual membership fee.</li>
+                <li>Access to community networking events.</li>
+                <li>Basic business training opportunities.</li>
+                <li>Access to chamber resources.</li>
+            </ul>
+            <button type="button" class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="bronze-modal" class="membership-modal">
+            <h2>Bronze Membership Benefits</h2>
+
+            <ul>
+                <li>All NP membership benefits.</li>
+                <li>Access to business training workshops.</li>
+                <li>Discounts on selected chamber events.</li>
+                <li>Networking opportunities with local businesses.</li>
+            </ul>
+            <button type="button" class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="silver-modal" class="membership-modal">
+            <h2>Silver Membership Benefits</h2>
+
+            <ul>
+                <li>All Bronze membership benefits.</li>
+                <li>Increased business visibility opportunities.</li>
+                <li>Advertising opportunities on chamber platforms.</li>
+                <li>Discounts on selected events and training.</li>
+                <li>Priority access to selected workshops.</li>
+            </ul>
+            <button type="button" class="close-modal">Close</button>
+        </dialog>
+
+        <dialog id="gold-modal" class="membership-modal">
+            <h2>Gold Membership Benefits</h2>
+
+            <ul>
+                <li>All Silver membership benefits.</li>
+                <li>Featured business spotlight opportunities.</li>
+                <li>Premium advertising opportunities.</li>
+                <li>Exclusive networking events.</li>
+                <li>Priority access to selected training sessions.</li>
+            </ul>
+            <button type="button" class="close-modal">Close</button>
+        </dialog>
     </main>
 
     <footer>

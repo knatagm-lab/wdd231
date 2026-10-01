@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popayán Business Chamber • Directory</title>
-    <meta name="description" content="A directory of local businesses and organizations that are part of Popayán Business Chamber">
+    <title>Popayán Business Chamber • Application Received</title>
+    <meta name="description" content="Confirmation of your Popayán Business Chamber membership application.">
     <meta name="author" content="Karen Natalia Gaviria Mariaca">
 
-    <meta property="og:title" content="Popayán Business Chamber • Directory">
-    <meta property="og:description" content="A directory of local businesses and organizations that are part of Popayán Business Chamber.">
+    <meta property="og:title" content="Popayán Business Chamber • Application Received">
+    <meta property="og:description" content="Confirmation of your Popayán Business Chamber membership application.">
     <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/chamber/images/camara-comercio.webp">
-    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/chamber/thankyou.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 
 </head>
 <body>
@@ -36,30 +36,26 @@
 
         <nav id="navigation">
             <a href="index.html">Home</a>
-            <a href="directory.html" class="active">Discover</a>
-            <a href="join.html">Join</a>
+            <a href="directory.html">Discover</a>
+            <a href="join.html" class="active">Join</a>
             <a href="#">Contact</a>
         </nav>
     </header>
-    
+
     <main>
-        <h1>Business Directory</h1>
+        <section class="thankyou">
+            <h1>Thank You for Your Application!</h1>
+            <p>
+                We have received your Popayán Business Chamber membership application.
+            </p>
 
-        <div class="view-buttons">
-            <button id="grid-view" aria-label="Display members in grid view">Grid</button>
-            <button id="list-view" aria-label="Display members in list view">List</button>
-        </div>
+            <div id="application-details"></div>
 
-        <section id="members-container" class="members-grid"></section>
+            <a class="return-button" href="join.html">Return to Membership Application</a>
+        </section>
     </main>
 
     <footer>
-        <div class="contact-information">
-            <h2>Popayán Business Chamber</h2>
-            <p>Popayán, Cauca, Colombia</p>
-            <p>Email: info@popayanbusinesschamber.com</p>
-            <p>Phone: +57 302 000 000</p>
-        </div>
 
         <div class="development-information">
             <p>&copy; <span id="currentyear"></span> Karen Gaviria • Colombia</p>
