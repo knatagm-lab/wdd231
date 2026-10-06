@@ -30,3 +30,10 @@ const timestampField = document.getElementById("timestamp");
 if (timestampField) {
     timestampField.value = new Date().toISOString();
 }
+
+const menuButton = document.getElementById("menu-button");
+const navMenu = document.getElementById("navigation");
+
+menuButton.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+});
