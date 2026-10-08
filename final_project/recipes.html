@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Table | Recipes</title>
+    <meta name="description" content="Explore simple homemade recipes for breakfast, lunch, dinner, and snacks at Healthy Table.">
+    <meta name="author" content="Karen Natalia Gaviria Mariaca">
+
+    <meta property="og:title" content="Healthy Table | Recipes">
+    <meta property="og:description" content="Explore simple homemade recipes for breakfast, lunch, dinner, and snacks at Healthy Table.">
+    <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/final_project/images/socialpreview.webp">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/final_project/recipes.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/recipes.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-content">
+            <a href="index.html" class="logo">
+                Healthy Table
+            </a>
+
+            <button class="menu-button" aria-label="Open navigation menu">☰</button>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html" class="active">Recipes</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <p class="eyebrow">From our kitchen</p>
+
+            <h1>Our Recipes</h1>
+
+            <p>
+                Explore simple homemade recipes for everyday cooking.
+                Find ideas for breakfast, lunch, dinner, and snacks.
+            </p>
+        </section>
+
+        <section class="recipe-section">
+            <div class="recipe-controls">
+
+                <h2>Find a Recipe</h2>
+
+                <div class="category-filters" aria-label="Recipe categories">
+                    <button type="button" class="filter-button active" data-category="all">All</button>
+                    <button type="button" class="filter-button" data-category="breakfast">Breakfast</button>
+                    <button type="button" class="filter-button" data-category="lunch">Lunch</button>
+                    <button type="button" class="filter-button" data-category="dinner">Dinner</button>
+                    <button type="button" class="filter-button" data-category="snacks">Snacks</button>
+                </div>
+            </div>
+
+            <div id="recipes-container" class="recipe-grid" aria-live="polite"></div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <h2>Healthy Table</h2>
+                <p>
+                    Simple homemade recipes and healthy meal ideas for everyday cooking.
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="guide.html">Guide</a>
+                <a href="attributions.html">Attributions</a>
+            </div>
+        </div>
+
+        <div>
+            <p>
+                &copy; <span id="currentyear"></span> Healthy Table | Karen Gaviria
+            </p>
+
+            <p>
+                Last Modified: <span id="lastModified"></span>
+            </p>
+
+        </div>
+    </footer>
+</body>
+</html>

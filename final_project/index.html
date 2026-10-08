@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Table | Home</title>
+    <meta name="description" content="Healthy Table offers simple homemade recipes, healthy meal ideas, and practical kitchen tips for everyday cooking.">
+    <meta name="author" content="Karen Natalia Gaviria Mariaca">
+
+    <meta property="og:title" content="Healthy Table | Home">
+    <meta property="og:description" content="Healthy Table offers simple homemade recipes, healthy meal ideas, and practical kitchen tips for everyday cooking.">
+    <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/final_project/images/socialpreview.webp">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/final_project/index.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-content">
+            <a href="index.html" class="logo">
+                Healthy Table
+            </a>
+
+            <button class="menu-button" aria-label="Open navigation menu">☰</button>
+
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+
+                <p class="eyebrow">Simple food. Everyday cooking.</p>
+
+                <h1>Good food starts at home</h1>
+
+                <p>
+                    Discover simple homemade recipes, healthy meal ideas, and
+                    practical kitchen tips made for everyday life.
+                </p>
+
+                <a href="recipes.html" class="button">Explore Recipes</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/hero.webp" alt="Healthy homemade meal served on a table" width="800" height="600">
+            </div>
+        </section>
+
+        <section class="featured-recipes">
+
+            <div class="section-heading">
+                <p class="eyebrow">From our kitchen</p>
+
+                <h2>Featured Recipes</h2>
+
+                <p>
+                    Simple recipes made with everyday ingredients and designed for real life.
+                </p>
+            </div>
+
+            <div id="featured-recipes-container" class="recipe-grid"></div>
+
+            <div class="section-action">
+                <a href="recipes.html" class="button secondary-button">View All Recipes</a>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="tips-content">
+                <p class="eyebrow">Kitchen wisdom</p>
+
+                <h2>Small tips can make cooking easier.</h2>
+
+                <p>
+                    Learn simple techniques and practical ideas that can help you
+                    feel more confident and organized in the kitchen. 
+                </p>
+
+                <a href="about.html" class="text-link">
+                    Discover more tips
+                </a>
+            </div>
+
+            <div class="tips-images">
+                <img src="images/kitchen-tips.webp" alt="Fresh ingredients prepared for cooking" width="600" height="450" loading="lazy">
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <h2>Healthy Table</h2>
+                <p>
+                    Simple homemade recipes and healthy meal ideas for everyday cooking.
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="guide.html">Guide</a>
+                <a href="attributions.html">Attributions</a>
+            </div>
+        </div>
+
+        <div>
+            <p>
+                &copy; <span id="currentyear"></span> Healthy Table | Karen Gaviria
+            </p>
+
+            <p>
+                Last Modified: <span id="lastModified"></span>
+            </p>
+
+        </div>
+    </footer>
+</body>
+</html>
