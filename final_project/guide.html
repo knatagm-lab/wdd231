@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Healthy Table | Home</title>
-    <meta name="description" content="Healthy Table offers simple homemade recipes, healthy meal ideas, and practical kitchen tips for everyday cooking.">
+    <title>Healthy Table | Guide</title>
+    <meta name="description" content="Discover simple healthy living tips, meal planing advice, and nutrition guidance from Healthy Table.">
     <meta name="author" content="Karen Natalia Gaviria Mariaca">
 
-    <meta property="og:title" content="Healthy Table | Home">
-    <meta property="og:description" content="Healthy Table offers simple homemade recipes, healthy meal ideas, and practical kitchen tips for everyday cooking.">
+    <meta property="og:title" content="Healthy Table | Guide">
+    <meta property="og:description" content="Discover simple healthy living tips, meal planing advice, and nutrition guidance from Healthy Table.">
     <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/final_project/images/socialpreview.webp">
-    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/final_project/index.html">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/final_project/guide.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,6 @@
     <link rel="stylesheet" href="styles/larger.css">
 
     <script src="scripts/main.js" defer></script>
-    <script src="scripts/home.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -38,9 +37,9 @@
 
             <nav class="site-nav" aria-label="Main navigation">
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="recipes.html">Recipes</a></li>
-                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="guide.html" class="active">Guide</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -48,48 +47,60 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h1>Healthy Recipes for Everyday Life</h1>
+        <section class="page-header">
+            <h1>Healthy Living Guide</h1>
 
             <p>
-                Discover simple, nutritious recipes that make healthy eating easy every day.
+                Simple tips to help you build healthy eating habits
+                and enjoy balanced meals every day.
             </p>
-
-            <a href="recipes.html" class="button">Explore Recipes</a>
-
-            <div class="hero-image">
-                <img src="images/hero.webp" alt="Healthy homemade meal served on a table" width="800" height="600">
-            </div>
         </section>
 
-        <section class="recipe-day">
-            <h2>Recipe of the Day</h2>
+        <section class="guide-content">
 
-            <div id="recipe-container"></div>
-        </section>
+            <article class="guide-card">
+                <h2>Stay Hydrated</h2>
 
-        <dialog id="home-recipe-modal">
-            <button type="button" id="close-home-modal">Close ✕</button>
-            <div id="home-modal-content"></div>
-        </dialog>
+                <p>
+                    Drinking water throughout the day helps maintain
+                    hydration and supports overall health.
+                </p>
+            </article>
 
-        <section class="categories"> 
-            <h2>Browse by Category</h2>
+            <article class="guide-card">
+                <h2>Choose Whole Foods</h2>
 
-            <div class="category-container">
-                <a href="recipes.html">Breakfast</a>
-                <a href="recipes.html">Lunch</a>
-                <a href="recipes.html">Dinner</a>
-                <a href="recipes.html">Snack</a>
-                <a href="recipes.html">Dessert</a>
-            </div>
+                <p>
+                    Include fruits, vegetables, whole grains, and
+                    lean proteins whenever possible.
+                </p>
+            </article>
+
+            <article class="guide-card">
+                <h2>Plan Your Meals</h2>
+
+                <p>
+                    Preparing meals in advance can help save time
+                    and encourage healthy food choices.
+                </p>
+            </article>
+
+            <article class="guide-card">
+                <h2>Balance Your Plate</h2>
+
+                <p>
+                    Aim to include vegetables, protein, and healthy
+                    carbohydrates in each meal.
+                </p>
+            </article>
+
         </section>
     </main>
 
     <footer class="site-footer">
 
         <div class="footer-content">
-
+            
             <div>
                 <h2>Healthy Table</h2>
                 <p>

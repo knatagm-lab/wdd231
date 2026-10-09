@@ -22,33 +22,112 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <script src="scripts/main.js" defer></script>
     <script src="scripts/recipes.js" defer></script>
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">
-            <img src="images/logo.svg" alt="Site logo">
-        </a>
-        <span>Healthy Table</span>
-        <button id="menu-button">☰</button>
+    <header class="site-header">
+        <div class="site-content">
 
-        <nav>
-            <ul>
-                <li class="current"><a href="index.html">Home</a></li>
-                <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="guide.html">Guide</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <a href="index.html" class="logo"> 
+                <img src="images/logo.svg" alt="Healthy Table logo">
+                <span>Healthy Table</span>
+            </a>
+
+            <button id="menu-button" class="menu-button" aria-label="Open navigation menu">☰</button>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html" class="active">Recipes</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section class="hero"></section>
-        <section class="recipe-day"></section>
-        <section class="categories"></section>
+        <section class="page-header">
+            <h1>Recipes</h1>
+            <p>
+                Explore healthy recipes for breakfast, lunch, dinner, snacks, and desserts.
+            </p>
+        </section>
+
+        <section class="filters">
+
+            <h2>Filter Recipes</h2>
+
+            <div class="category-filters" id="category-filters">
+
+                <h3>Categories</h3>
+
+                <button type="button" data-category="All">All</button>
+                <button type="button" data-category="Breakfast">Breakfast</button>
+                <button type="button" data-category="Lunch">Lunch</button>
+                <button type="button" data-category="Dinner">Dinner</button>
+                <button type="button" data-category="Snack">Snack</button>
+                <button type="button" data-category="Dessert">Dessert</button>
+            </div>
+
+            <div class="tag-filters" id="tag-filters">
+
+                <h3>Filters</h3>
+                
+                <button type="button" data-tag="Quick">Quick</button>
+                <button type="button" data-tag="Vegetarian">Vegetarian</button>
+                <button type="button" data-tag="High Protein">High Protein</button>
+                <button type="button" data-tag="Low Carb">Low Carb</button>
+                <button type="button" data-tag="High Fiber">High Fiber</button>
+                <button type="button" data-tag="Gluten Free">Gluten Free</button>
+                <button type="button" data-tag="Kid Friendly">Kid Friendly</button>
+            </div>
+        </section>
+
+        <section class="recipes-section">
+            <h2>All Recipes</h2>
+
+            <div id="recipes-container" aria-live="polite"></div>
+        </section>
+
+        <dialog id="recipe-modal">
+            <button type="button" id="close-modal" aria-label="Close recipes details">✕</button>
+
+            <div id="modal-content"></div>
+        </dialog>
     </main>
-    <footer>
-        <p>&copy; <span id="currentyear"></span> Karen Gaviria • Healthy Table</p>
-        <p id="lastModified"></p>
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+            
+            <div>
+                <h2>Healthy Table</h2>
+                <p>
+                    Simple homemade recipes and healthy meal ideas for everyday cooking.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="guide.html">Guide</a>
+                <a href="contact.html">Contact</a>
+                <a href="attributions.html">Attributions</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="currentyear"></span> Healthy Table | Karen Gaviria
+            </p>
+
+            <p>
+                Last Modified: <span id="lastModified"></span>
+            </p>
+
+        </div>
     </footer>
 </body>
 </html>

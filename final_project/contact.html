@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Table | Contact</title>
+    <meta name="description" content="Share your cooking preferences and discover healthy meal ideas with Healthy Table.">
+    <meta name="author" content="Karen Natalia Gaviria Mariaca">
+
+    <meta property="og:title" content="Healthy Table | Contact">
+    <meta property="og:description" content="Share your cooking preferences and discover healthy meal ideas with Healthy Table.">
+    <meta property="og:image" content="https://knatagm-lab.github.io/wdd231/final_project/images/socialpreview.webp">
+    <meta property="og:url" content="https://knatagm-lab.github.io/wdd231/final_project/contact.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-content">
+
+            <a href="index.html" class="logo"> 
+                <img src="images/logo.svg" alt="Healthy Table logo">
+                <span>Healthy Table</span>
+            </a>
+
+            <button id="menu-button" class="menu-button" aria-label="Open navigation menu">☰</button>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p>
+                Share your cooking preferences and help us provide
+                better recipe recommendations.
+            </p>
+        </section>
+
+        <section class="contact-form">
+            <form method="get" action="thankyou.html">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+                <label for="favorite-meal">Favorite Meal Category</label>
+
+                <select id="favorite-meal" name="favorite-meal" required>
+                    <option value="" disabled selected>Select One</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Snack">Snack</option>
+                    <option value="Dessert">Dessert</option>
+                </select>
+
+                <fieldset>
+                    <legend>Cooking Experience</legend>
+                    <label><input type="radio" name="experience" value="Beginner" required> Beginner</label>
+                    <label><input type="radio" name="experience" value="Intermediate"> Intermediate</label>
+                    <label><input type="radio" name="experience" value="Advanced"> Advanced</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferred Recipe Types</legend>
+                    <label><input type="checkbox" name="tags" value="Quick"> Quick</label>
+                    <label><input type="checkbox" name="tags" value="Vegetarian"> Vegetarian</label>
+                    <label><input type="checkbox" name="tags" value="High Protein"> High Protein</label>
+                    <label><input type="checkbox" name="tags" value="Gluten Free"> Gluten Free</label>
+                </fieldset>
+
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Share your thoughts..."></textarea>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <input type="submit" value="Submit Preferences">
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="footer-content">
+            
+            <div>
+                <h2>Healthy Table</h2>
+                <p>
+                    Simple homemade recipes and healthy meal ideas for everyday cooking.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="guide.html">Guide</a>
+                <a href="contact.html">Contact</a>
+                <a href="attributions.html">Attributions</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="currentyear"></span> Healthy Table | Karen Gaviria
+            </p>
+
+            <p>
+                Last Modified: <span id="lastModified"></span>
+            </p>
+
+        </div>
+    </footer>
+</body>
+</html>
