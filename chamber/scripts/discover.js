@@ -34,10 +34,17 @@ if (!lastVisit) {
     if (daysDifference < 1) {
         visitMessage.textContent = "Back so soon! Awesome!";
     } else if (daysDifference === 1) {
-        visitMessage.textContent = "Your last visit 1 day ago.";
+        visitMessage.textContent = "Your last visited 1 day ago.";
     } else {
-        visitMessage.textContent = `Your last visit ${daysDifference} days ago.`;
+        visitMessage.textContent = `Your last visited ${daysDifference} days ago.`;
     }
 }
 
 localStorage.setItem("lastVisit", currentVisit);
+
+const menuButton = document.getElementById("menu-button");
+const navMenu = document.getElementById("navigation");
+
+menuButton.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+});

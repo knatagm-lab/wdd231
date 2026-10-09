@@ -25,81 +25,30 @@
     <script src="scripts/recipes.js" defer></script>
 </head>
 <body>
-    <header class="site-header">
-        <div class="site-content">
-            <a href="index.html" class="logo">
-                Healthy Table
-            </a>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="Site logo">
+        </a>
+        <span>Healthy Table</span>
+        <button id="menu-button">☰</button>
 
-            <button class="menu-button" aria-label="Open navigation menu">☰</button>
-
-            <nav class="site-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="recipes.html" class="active">Recipes</a></li>
-                    <li><a href="guide.html">Guide</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-        <section class="page-intro">
-            <p class="eyebrow">From our kitchen</p>
-
-            <h1>Our Recipes</h1>
-
-            <p>
-                Explore simple homemade recipes for everyday cooking.
-                Find ideas for breakfast, lunch, dinner, and snacks.
-            </p>
-        </section>
-
-        <section class="recipe-section">
-            <div class="recipe-controls">
-
-                <h2>Find a Recipe</h2>
-
-                <div class="category-filters" aria-label="Recipe categories">
-                    <button type="button" class="filter-button active" data-category="all">All</button>
-                    <button type="button" class="filter-button" data-category="breakfast">Breakfast</button>
-                    <button type="button" class="filter-button" data-category="lunch">Lunch</button>
-                    <button type="button" class="filter-button" data-category="dinner">Dinner</button>
-                    <button type="button" class="filter-button" data-category="snacks">Snacks</button>
-                </div>
-            </div>
-
-            <div id="recipes-container" class="recipe-grid" aria-live="polite"></div>
-
-        </section>
+        <section class="hero"></section>
+        <section class="recipe-day"></section>
+        <section class="categories"></section>
     </main>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div>
-                <h2>Healthy Table</h2>
-                <p>
-                    Simple homemade recipes and healthy meal ideas for everyday cooking.
-                </p>
-            </div>
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="recipes.html">Recipes</a>
-                <a href="guide.html">Guide</a>
-                <a href="attributions.html">Attributions</a>
-            </div>
-        </div>
-
-        <div>
-            <p>
-                &copy; <span id="currentyear"></span> Healthy Table | Karen Gaviria
-            </p>
-
-            <p>
-                Last Modified: <span id="lastModified"></span>
-            </p>
-
-        </div>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Karen Gaviria • Healthy Table</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>

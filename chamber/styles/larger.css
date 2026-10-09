@@ -118,6 +118,14 @@
         margin: 0 auto 2rem;
         padding: 1.5rem 2rem;
     }
+
+    .discover-gallery {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+            "one two three"
+            "four five six"
+            "seven eight eight";
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1024px) {
@@ -128,11 +136,10 @@
     .discover-gallery article {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            "image name"
-            "image address"
-            "image description"
-            "image cost"
-            "image button";
+            "one two"
+            "three four"
+            "five six"
+            "seven eight";
     }
 
     .discover-gallery img {

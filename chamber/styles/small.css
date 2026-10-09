@@ -653,37 +653,47 @@ nav a.active {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas:
-        "name"
-        "image"
-        "address"
-        "description"
-        "cost"
-        "button";
+        "one"
+        "two"
+        "three"
+        "four"
+        "five"
+        "six"
+        "seven"
+        "eight";
     gap: 1.5rem;
 }
 
-.place-name {
-    grid-area: name;
+.discover-gallery article:nth-child(1) {
+    grid-area: one;
 }
 
-.place-image {
-    grid-area: image;
+.discover-gallery article:nth-child(2) {
+    grid-area: two;
 }
 
-.place-address {
-    grid-area: address;
+.discover-gallery article:nth-child(3) {
+    grid-area: three;
 }
 
-.place-description {
-    grid-area: description;
+.discover-gallery article:nth-child(4) {
+    grid-area: four;
 }
 
-.place-cost {
-    grid-area: cost;
+.discover-gallery article:nth-child(5) {
+    grid-area: five;
 }
 
-.place-button {
-    grid-area: button;
+.discover-gallery article:nth-child(6) {
+    grid-area: six;
+}
+
+.discover-gallery article:nth-child(7) {
+    grid-area: seven;
+}
+
+.discover-gallery article:nth-child(8) {
+    grid-area: eight;
 }
 
 .discover-gallery article {

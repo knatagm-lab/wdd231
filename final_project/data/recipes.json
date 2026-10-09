@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "name": "Avocado Toast",
+    "category": "Breakfast",
+    "tags": [
+    "Quick",
+    "Vegetarian",
+    "High Fiber"
+    ],
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 2,
+    "image": "images/avocado-toast.webp",
+    "description": "Whole grain toast topped with mashed avocado and tomato.",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 avocado",
+      "1 tomato"
+    ],
+    "instructions": [
+      "Toast the bread.",
+      "Mash the avocado.",
+      "Slice the tomato.",
+      "Spread avocado on toast and add tomato."
+    ],
+    "nutrition": {
+      "calories": 250,
+      "protein": 8,
+      "carbs": 22,
+      "fat": 14
+    }
+  },
+  {
+    "id": 2,
+    "name": "Berry Smoothie",
+    "category": "Breakfast",
+    "tags": [
+    "Quick",
+    "Vegetarian",
+    "Kid Friendly"
+    ],
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 1,
+    "image": "images/berry-smoothie.webp",
+    "description": "Refreshing smoothie with mixed berries and yogurt.",
+    "ingredients": [
+      "1 cup mixed berries",
+      "1 cup yogurt",
+      "1/2 banana"
+    ],
+    "instructions": [
+      "Add all ingredients to blender.",
+      "Blend until smooth.",
+      "Serve immediately."
+    ],
+    "nutrition": {
+      "calories": 180,
+      "protein": 10,
+      "carbs": 28,
+      "fat": 3
+    }
+  },
+  {
+    "id": 3,
+    "name": "Oatmeal Bowl",
+    "category": "Breakfast",
+    "tags": [
+    "Vegetarian",
+    "High Fiber",
+    "Kid Friendly"
+    ],
+    "prepTime": 15,
+    "difficulty": "Easy",
+    "servings": 1,
+    "image": "images/oatmeal-bowl.webp",
+    "description": "Warm oatmeal with fruit topping.",
+    "ingredients": [
+      "1 cup oats",
+      "2 cups milk",
+      "1 banana",
+      "Honey"
+    ],
+    "instructions": [
+      "Cook oats with milk.",
+      "Slice banana.",
+      "Top with banana and honey."
+    ],
+    "nutrition": {
+      "calories": 320,
+      "protein": 12,
+      "carbs": 50,
+      "fat": 7
+    }
+  },
+  {
+    "id": 4,
+    "name": "Veggie Omelette",
+    "category": "Breakfast",
+    "tags": [
+    "High Protein",
+    "Low Carb",
+    "Vegetarian"
+    ],
+    "prepTime": 12,
+    "difficulty": "Medium",
+    "servings": 1,
+    "image": "images/veggie-omelette.webp",
+    "description": "Protein rich omelette with vegetables.",
+    "ingredients": [
+      "2 eggs",
+      "Spinach",
+      "Bell pepper",
+      "Onion"
+    ],
+    "instructions": [
+      "Beat eggs.",
+      "Cook vegetables in a pan.",
+      "Add eggs and cook until set."
+    ],
+    "nutrition": {
+      "calories": 220,
+      "protein": 18,
+      "carbs": 6,
+      "fat": 13
+    }
+  },
+  {
+    "id": 5,
+    "name": "Grilled Chicken Salad",
+    "category": "Lunch",
+    "tags": [
+    "High Protein",
+    "Low Carb",
+    "Gluten Free"
+    ],
+    "prepTime": 20,
+    "difficulty": "Easy",
+    "servings": 2,
+    "image": "images/chicken-salad.webp",
+    "description": "Fresh salad with grilled chicken breast.",
+    "ingredients": [
+      "Chicken breast",
+      "Lettuce",
+      "Tomatoes",
+      "Cucumber"
+    ],
+    "instructions": [
+      "Grill chicken.",
+      "Chop vegetables.",
+      "Combine and serve."
+    ],
+    "nutrition": {
+      "calories": 350,
+      "protein": 32,
+      "carbs": 10,
+      "fat": 15
+    }
+  },
+  {
+    "id": 6,
+    "name": "Turkey Wrap",
+    "category": "Lunch",
+    "tags": [
+    "High Protein",
+    "Quick"
+    ],
+    "prepTime": 15,
+    "difficulty": "Easy",
+    "servings": 1,
+    "image": "images/turkey-wrap.webp",
+    "description": "Whole wheat wrap with turkey and vegetables.",
+    "ingredients": [
+      "Tortilla",
+      "Turkey slices",
+      "Lettuce",
+      "Tomato"
+    ],
+    "instructions": [
+      "Place ingredients on tortilla.",
+      "Roll tightly.",
+      "Slice and serve."
+    ],
+    "nutrition": {
+      "calories": 300,
+      "protein": 24,
+      "carbs": 28,
+      "fat": 9
+    }
+  },
+  {
+    "id": 7,
+    "name": "Quinoa Bowl",
+    "category": "Lunch",
+    "tags": [
+    "Vegetarian",
+    "High Fiber",
+    "Gluten Free"
+    ],
+    "prepTime": 25,
+    "difficulty": "Medium",
+    "servings": 2,
+    "image": "images/quinoa-bowl.webp",
+    "description": "Nutritious quinoa with vegetables.",
+    "ingredients": [
+      "Quinoa",
+      "Broccoli",
+      "Carrots",
+      "Chickpeas"
+    ],
+    "instructions": [
+      "Cook quinoa.",
+      "Steam vegetables.",
+      "Mix ingredients and serve."
+    ],
+    "nutrition": {
+      "calories": 390,
+      "protein": 14,
+      "carbs": 55,
+      "fat": 10
+    }
+  },
+  {
+    "id": 8,
+    "name": "Tuna Sandwich",
+    "category": "Lunch",
+    "tags": [
+    "High Protein",
+    "Quick"
+    ],
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 1,
+    "image": "images/tuna-sandwich.webp",
+    "description": "Simple sandwich with tuna filling.",
+    "ingredients": [
+      "Bread",
+      "Tuna",
+      "Lettuce",
+      "Light mayonnaise"
+    ],
+    "instructions": [
+      "Mix tuna with mayonnaise.",
+      "Assemble sandwich.",
+      "Serve."
+    ],
+    "nutrition": {
+      "calories": 310,
+      "protein": 21,
+      "carbs": 30,
+      "fat": 11
+    }
+  },
+  {
+    "id": 9,
+    "name": "Baked Salmon",
+    "category": "Dinner",
+    "tags": [
+    "High Protein",
+    "Low Carb",
+    "Gluten Free"
+    ],
+    "prepTime": 30,
+    "difficulty": "Medium",
+    "servings": 2,
+    "image": "images/baked-salmon.webp",
+    "description": "Oven baked salmon with herbs.",
+    "ingredients": [
+      "Salmon fillets",
+      "Lemon",
+      "Garlic",
+      "Parsley"
+    ],
+    "instructions": [
+      "Season salmon.",
+      "Bake for 20 minutes.",
+      "Serve with lemon."
+    ],
+    "nutrition": {
+      "calories": 420,
+      "protein": 35,
+      "carbs": 4,
+      "fat": 26
+    }
+  },
+  {
+    "id": 10,
+    "name": "Vegetable Stir Fry",
+    "category": "Dinner",
+    "tags": [
+    "Vegetarian",
+    "Gluten Free",
+    "High Fiber"
+    ],
+    "prepTime": 20,
+    "difficulty": "Easy",
+    "servings": 2,
+    "image": "images/vegetable-stir-fry.webp",
+    "description": "Colorful vegetables sautéed in a skillet.",
+    "ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell peppers",
+      "Soy sauce"
+    ],
+    "instructions": [
+      "Heat skillet.",
+      "Cook vegetables.",
+      "Add soy sauce and serve."
+    ],
+    "nutrition": {
+      "calories": 240,
+      "protein": 8,
+      "carbs": 35,
+      "fat": 8
+    }
+  },
+  {
+    "id": 11,
+    "name": "Chicken Rice Bowl",
+    "category": "Dinner",
+    "tags": [
+    "High Protein",
+    "Kid Friendly"
+    ],
+    "prepTime": 30,
+    "difficulty": "Medium",
+    "servings": 2,
+    "image": "images/chicken-rice-bowl.webp",
+    "description": "Chicken served over brown rice.",
+    "ingredients": [
+      "Chicken breast",
+      "Brown rice",
+      "Peas",
+      "Carrots"
+    ],
+    "instructions": [
+      "Cook rice.",
+      "Cook chicken.",
+      "Combine and serve."
+    ],
+    "nutrition": {
+      "calories": 470,
+      "protein": 34,
+      "carbs": 48,
+      "fat": 12
+    }
+  },
+  {
+    "id": 12,
+    "name": "Lentil Soup",
+    "category": "Dinner",
+    "tags": [
+    "Vegetarian",
+    "High Fiber",
+    "Gluten Free"
+    ],
+    "prepTime": 35,
+    "difficulty": "Easy",
+    "servings": 4,
+    "image": "images/lentil-soup.webp",
+    "description": "Comforting lentil soup packed with nutrients.",
+    "ingredients": [
+      "Lentils",
+      "Carrots",
+      "Onion",
+      "Celery"
+    ],
+    "instructions": [
+      "Cook vegetables.",
+      "Add lentils and water.",
+      "Simmer until tender."
+    ],
+    "nutrition": {
+      "calories": 260,
+      "protein": 16,
+      "carbs": 38,
+      "fat": 4
+    }
+  },
+  {
+    "id": 13,
+    "name": "Apple Slices with Peanut Butter",
+    "category": "Snack",
+    "tags": [
+    "Quick",
+    "Vegetarian",
+    "Kid Friendly"
+    ],
+    "prepTime": 5,
+    "difficulty": "Easy",
+    "servings": 1,
+    "image": "images/apple-peanut-butter.webp",
+    "description": "Quick snack with fruit and healthy fats.",
+    "ingredients": [
+      "Apple",
+      "Peanut butter"
+    ],
+    "instructions": [
+      "Slice apple.",
+      "Serve with peanut butter."
+    ],
+    "nutrition": {
+      "calories": 190,
+      "protein": 5,
+      "carbs": 22,
+      "fat": 9
+    }
+  },
+  {
+    "id": 14,
+    "name": "Greek Yogurt Parfait",
+    "category": "Snack",
+    "tags": [
+    "High Protein",
+    "Kid Friendly",
+    "Quick"
+    ],
+    "prepTime": 8,
+    "difficulty": "Easy",
+    "servings": 1,
+    "image": "images/yogurt-parfait.webp",
+    "description": "Layered yogurt, berries and granola.",
+    "ingredients": [
+      "Greek yogurt",
+      "Berries",
+      "Granola"
+    ],
+    "instructions": [
+      "Layer ingredients in a glass.",
+      "Serve chilled."
+    ],
+    "nutrition": {
+      "calories": 210,
+      "protein": 14,
+      "carbs": 24,
+      "fat": 6
+    }
+  },
+  {
+    "id": 15,
+    "name": "Banana Oat Cookies",
+    "category": "Dessert",
+    "tags": [
+    "Vegetarian",
+    "Kid Friendly",
+    "High Fiber"
+    ],
+    "prepTime": 20,
+    "difficulty": "Easy",
+    "servings": 6,
+    "image": "images/banana-oat-cookies.webp",
+    "description": "Healthy cookies made with banana and oats.",
+    "ingredients": [
+      "Bananas",
+      "Oats",
+      "Cinnamon"
+    ],
+    "instructions": [
+      "Mash bananas.",
+      "Mix ingredients.",
+      "Bake for 15 minutes."
+    ],
+    "nutrition": {
+      "calories": 120,
+      "protein": 3,
+      "carbs": 22,
+      "fat": 2
+    }
+  },
+  {
+    "id": 16,
+    "name": "Fruit Salad",
+    "category": "Dessert",
+    "tags": [
+    "Vegetarian",
+    "Gluten Free",
+    "Kid Friendly"
+    ],
+    "prepTime": 10,
+    "difficulty": "Easy",
+    "servings": 4,
+    "image": "images/fruit-salad.webp",
+    "description": "Colorful mix of fresh fruits.",
+    "ingredients": [
+      "Strawberries",
+      "Kiwi",
+      "Apple",
+      "Grapes"
+    ],
+    "instructions": [
+      "Wash fruit.",
+      "Cut into pieces.",
+      "Mix and serve."
+    ],
+    "nutrition": {
+      "calories": 140,
+      "protein": 2,
+      "carbs": 34,
+      "fat": 1
+    }
+  }
+]
